@@ -1,0 +1,114 @@
+\documentclass{article}
+\usepackage{scimisc-cv}
+
+\title{Ritika Shrivastava}
+\author{Ritika Shrivastava}
+\date{July 2020}
+
+%% These are custom commands defined in scimisc-cv.sty
+\cvname{Ritika Shrivastava}
+\cvpersonalinfo{
+760-442-4743 \cvinfosep
+linkedin.com/in/ritikashrivastava/ \cvinfosep
+ritishri@berkeley.edu
+}
+
+\begin{document}
+
+% \maketitle %% This is LaTeX's default title constructed from \title,\author,\date
+
+\makecvtitle %% This is a custom command constructing the CV title from \cvname, \cvpersonalinfo
+
+\section{Education}
+\cvsubsection{University of California, Berkeley} [August 2018 - May 2021]
+[B.S. Electrical Engineering and Computer Science][Regents and Chancellor's Scholar (Top 2\% of incoming class.)]
+\begin{itemize}
+\item \textbf{Computer Science:} Data Structures, Discrete Mathematics, Algorithms, Artificial Intelligence, Computer Architecture
+\item \textbf{Electrical Engineering:} Designing Information Devices and Systems I \& II, Robotics I, PCB design
+\item \textbf{Statistics:} Probability and Random Processes
+\end{itemize}
+
+ \cvsubsection{University of San Diego, GenCyber Scholarship} [May 2017 - June 2017]
+[Sponsored by National Security Agency and National Science Foundation][]
+\begin{itemize}
+\item Manipulated Network Security levels through process isolation and domain separation
+\item Assessed risks and threats to a system using least Privilege and modularity techniques
+\item Ran forensics and applied cryptography techniques (Abstraction and Layering)
+\end{itemize}
+ 
+\section{Skills}
+\begin{description}[widest=Langauges]
+\item[Languages] Python, GoLang, Java, C, Scheme, SQL, RISC-V, HTML, CSS, JavaScript
+\item[Python Libraries] ROS, Pandas, NumPy, OpenCV, sklearn, SciPy, TensorFlow
+\item[Security Tools \& APIs] Shodan.io, Censys, VirusTotal, Anomali, Nmap, Wireshark, Cuckoo 
+\end{description}
+
+\section{Work Experience}
+
+%% Another custom command provide by scimisc-cv.sty.
+%% First two argumetns are typeset on the first line in bold; 3rd and 4th arguments are typset on second line in italics. 2nd, 3rd and 4th arguments are OPTIONAL
+\cvsubsection{Microsoft: Defender ATP - DeepResearch Team}[]
+[Software Engineering Intern][May 2020 - Aug 2020]
+
+\begin{itemize}
+\item Programmed in Python to expose insecure / unpatched internet facing assets to secops for secure configuration
+\item Investigated tools and designed an algorithm with scoring model to identify and map assets discovered to enterprise customers
+\item Identified internet facing servers belonging to enterprise segment and mapped out secure configurations to reduce risks
+\end{itemize}
+
+%% An example of leaving an argument empty
+\cvsubsection{GoDaddy: Threat Intelligence \& Detection}[][Software Engineering Intern][May 2019 - Aug 2019]
+
+\begin{itemize}
+\item Designed and developed an automated file hash enrichment and investigation process which tripled reports analysed
+\item Learned GoLang and understood concepts of concurrency (Goroutines) and templates 
+\item Integrated plugins into the Threat Investigation API while maintaining clean interface design
+\end{itemize}
+ 
+\section{Projects}
+\cvsubsection{Robot Open Autonomous Racing (ROAR™)} [FHL Vive Center
+for Enhanced Reality]
+[Researcher for a new AI racecar competition hosted in Berkeley][Aug 2019 - Present]
+\begin{itemize}
+\item Developed and designed the standardized SLAM (localization) platform for all race teams to use 
+\item Presentation: http://vivecenter.berkeley.edu/wp-content/uploads/2020/03/Localization.pdf
+\item Programming a computer-vision model for ground-plane detection and based on the results identity static and dynamic obstacles 
+\item Working under Prof. Allen Yang. Referred by Prof. S. Shankar Sastry
+\end{itemize}
+
+\cvsubsection{Computer-Vision Driven Human Robot Interaction} [EECS C106A Final Project]
+[Built a functional, cable-actuated robotic hand][Aug 2019 - Dec 2019]
+\begin{itemize}
+\item Designed and programmed computer vision program to monitor human action (OpenCV and sklearn) 
+\item Trained PID controller to ensure accurate detection and classification of action
+\item Integrated software (RaspberryPi) with hardware (servo motors) being controlled by Ardiuno to ensure 97\% accurate Interaction
+\item Project Website: \href{https://sites.google.com/berkeley.edu/eecs-c106a-final-rps-gp30/}
+\end{itemize}
+
+\cvsubsection{Encrypted Contact Sharing through DNS} [GoDaddy Intern Hackathon]
+[Used Goaddy tools and infrastructure to add an additional feature to domains][Aug 2019]
+\begin{itemize}
+\item Designed a double encrypted and signed process to enable domain’s DNS records to exchange contact information
+\item Database generated using AWS mySQL and processes defined with AWS Docker
+\end{itemize}
+
+\section{Teaching Experience}
+\cvsubsection{University of California, Berkeley} []
+[EECS C106A/C206A Lab Undergraduate Student Instructor][Aug 2020 - Dec 2020]
+\begin{itemize}
+\item Robotics I for Undergraduates and Graduate Students
+\item Taught by: S. Shankar Sastry
+\end{itemize}
+%%\cvsubsection{University of California, Berkeley} [] [EECS 16A Lab Assistant] [Jan 2020 - May 2020]
+%%\begin{itemize}
+%%\item Lab Assistant for Designing Information Devices and Systems II
+%%\end{itemize}
+
+\section{Awards}
+\textbf{GoDaddy Intern Hackathon - Technical Innovation Award} \hfill \textit{August 2019}\\
+\textbf{Cal Alumni Association Leadership Award:} 200 selected for impacting their community \hfill \textit{August 2018 \& August 2019}\\
+\textbf{Athena Pinnacle - Qualcomm Award for Computation:} 1 student in San Diego, CA \hfill \textit{May 2018} \\
+\textbf{NCWIT - National Honorable Mention:} Top 9\% selected on experience in computing. \hfill \textit{April 2018} \\
+\textbf{Rotary Award for Leadership:} Top 3 students selected for impacting their community \hfill \textit{April 2018} 
+
+\end{document}
